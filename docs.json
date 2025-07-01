@@ -40,17 +40,12 @@
         {
           "anchor": "Website",
           "href": "https://nebulaclient.zip",
-          "icon": "book-"
+          "icon": "globe"
         },
         {
           "anchor": "Discord",
           "href": "https://nebulaclient.zip/discord",
           "icon": "discord"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
