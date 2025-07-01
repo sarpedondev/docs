@@ -27,7 +27,7 @@
               {
                 "group": "General",
                 "pages": [
-                  "music"
+                  "modules/general/music"
                 ]
               },
               {
