@@ -22,6 +22,35 @@
             ]
           },
           {
+            "group": "Modules",
+            "pages": [
+              {
+                "group": "General",
+                "pages": []
+              },
+              {
+                "group": "Combat",
+                "pages": []
+              },
+              {
+                "group": "Skills",
+                "pages": []
+              },
+              {
+                "group": "Mining",
+                "pages": []
+              },
+              {
+                "group": "Dungeons",
+                "pages": []
+              },
+              {
+                "group": "Misc",
+                "pages": []
+              }
+            ]
+          },
+          {
             "group": "Essentials",
             "pages": [
               "essentials/markdown",
@@ -51,7 +80,7 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/nebula.webp",
+    "dark": "/logo/nebula.webp"
   }
 }
