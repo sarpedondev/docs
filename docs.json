@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "willow",
+  "name": "NebulaClient",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#7C3AED",
+    "light": "#A78BFA",
+    "dark": "#5B21B6"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -16,9 +16,7 @@
           {
             "group": "Get Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
@@ -27,40 +25,75 @@
               {
                 "group": "General",
                 "pages": [
-                  "modules/general/music"
+                  "modules/general/bazaar-unlocker",
+                  "modules/general/carnival",
+                  "modules/general/chocolate-factory",
+                  "modules/general/dojo",
+                  "modules/general/qol",
+                  "modules/general/visuals"
                 ]
               },
               {
                 "group": "Combat",
-                "pages": []
+                "pages": [
+                  "modules/combat/combat-macro",
+                  "modules/combat/diana-macro",
+                  "modules/combat/pelt-hunter",
+                  "modules/combat/slayer-macro"
+                ]
               },
               {
                 "group": "Skills",
-                "pages": []
+                "pages": [
+                  "modules/skills/alchemy",
+                  "modules/skills/fishing",
+                  "modules/skills/foraging",
+                  "modules/skills/rift-qol"
+                ]
               },
               {
                 "group": "Mining",
-                "pages": []
+                "pages": [
+                  "modules/mining/block-miner",
+                  "modules/mining/dwarven-commissions",
+                  "modules/mining/gemstone-miner",
+                  "modules/mining/mining-qol",
+                  "modules/mining/mithril-miner",
+                  "modules/mining/powder-macro",
+                  "modules/mining/scatha",
+                  "modules/mining/tunnels-miner"
+                ]
+              },
+              {
+                "group": "Farming",
+                "pages": [
+                  "modules/farming/auto-visitors",
+                  "modules/farming/farming",
+                  "modules/farming/pest-macro",
+                  "modules/farming/plot-cleaner"
+                ]
               },
               {
                 "group": "Dungeons",
-                "pages": []
+                "pages": [
+                  "modules/dungeons/dungeon-routes",
+                  "modules/dungeons/dungeon-solvers",
+                  "modules/dungeons/dungeon-utils"
+                ]
               },
               {
                 "group": "Misc",
-                "pages": []
+                "pages": [
+                  "modules/misc/auto-builder",
+                  "modules/misc/failsafe-reactions",
+                  "modules/misc/failsafes",
+                  "modules/misc/kuudra-utils",
+                  "modules/misc/market",
+                  "modules/misc/music",
+                  "modules/misc/pathfinding",
+                  "modules/misc/scheduler"
+                ]
               }
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
             ]
           }
         ]
